@@ -1,8 +1,8 @@
 import { createRouter, createWebHistory } from "vue-router";
-import Main from "./components/Main";
-import One from "./components/One";
-import Two from "./components/Two";
-import Three from "./components/Three";
+import Main from "./view/Main";
+import One from "./view/One";
+import Two from "./view/Two";
+import Three from "./view/Three";
 
 export default createRouter({
   history: createWebHistory(),
