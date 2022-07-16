@@ -7,11 +7,18 @@
   </ul>
   <h1>APP VUE</h1>
   <router-view></router-view>
+  <main>
+    <local-component />
+    <global-component />
+  </main>
 </template>
 
 <script>
+import LocalComponent from "@/components/Lacal.vue";
 export default {
-  
+  components: {
+    LocalComponent
+  }
 }
 </script>
 
